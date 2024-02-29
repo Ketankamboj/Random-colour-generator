@@ -1,0 +1,36 @@
+body{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #e7eff5;
+}
+.container{
+    text-align: center;
+}
+.container h2{
+    background-color: #222;
+    padding: 20px;
+    border-radius: 10px;
+    color: #ffffff;
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+.color{
+    color: #00bfff;
+    font-size: 20px;
+}
+.btn{
+    background-color: transparent;
+    padding: 10px;
+    border: 2px solid #222;
+    outline: none;
+    cursor: pointer;
+    margin-left: 20px;
+}
+.btn:hover{
+    background-color: #222;
+    color: #ffffff;
+    border-radius: 5px;
+    transition: all 0.3s ease-in-out;
+}
